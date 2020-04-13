@@ -14,7 +14,7 @@ Features
 ## Release History
 
 * 0.0.1
-    * Work in progress.
+    * Base Project.
 
 ## Meta
 
