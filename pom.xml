@@ -6,23 +6,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.6.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<groupId>com.galaxy</groupId>
+		<artifactId>spring-boot-parent-pom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.galaxy.spring</groupId>
-	<artifactId>base-standalone</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>base-standalone-spring-boot</artifactId>
 
 	<name>base-standalone</name>
-	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
