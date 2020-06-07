@@ -6,9 +6,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.galaxy</groupId>
-		<artifactId>spring-boot-parent-pom</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>com.github.dhirajraut</groupId>
+		<artifactId>java-spring-boot-parent</artifactId>
+		<version>master-SNAPSHOT</version>
 	</parent>
 	<groupId>com.galaxy.spring</groupId>
 	<artifactId>base-standalone-spring-boot</artifactId>
@@ -59,12 +59,10 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 </project>
